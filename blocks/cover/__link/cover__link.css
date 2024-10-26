@@ -4,4 +4,9 @@
   display: block;
   text-decoration: none;
   background-color: rgb(42, 44, 47, 30%);
+  transition: background-color 0.45s linear;
+}
+
+.cover__link:hover {
+  background-color: rgb(42, 44, 47, 80%);
 }
