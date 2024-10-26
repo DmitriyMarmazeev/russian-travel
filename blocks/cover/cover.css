@@ -1,3 +1,26 @@
 .cover {
-  width: 100px;
+  margin: 92px auto 0;
+  width: 92.5%;
+  max-width: 1184px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-top: 66px;
+  }
 }
